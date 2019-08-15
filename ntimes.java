@@ -4,9 +4,9 @@ class ntimes
     public static void main(String args[])
     {
         Scanner sc5=new Scanner(System.in);
-        String s=sc5.nextLine();
-        int n=Integer.parseInt(s);
-        for(int i=1; i<n; i++)
+        String string=sc5.nextLine();
+        int m=Integer.parseInt(string);
+        for(int i=1; i<m; i++)
         {
             System.out.println("hello");
         }
