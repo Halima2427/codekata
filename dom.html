@@ -1,0 +1,20 @@
+<html>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("#btn1").click(function(){
+        $("ul").append("<li>"+$("input:text").val()+"</li>")
+     
+    });
+});
+    </script>
+    <body>
+       
+            <input type="text" id="ip2">
+            <button id="btn1" >ADD</button>
+            <ul><li><h3>NAME LIST</h3></li></ul>
+
+       
+    </body>
+</html>
